@@ -5,14 +5,10 @@ public class OpenWeb {
 
     public static void main(String[] args) {
 
-
-        //System.out.println("hello");
         System.setProperty("webdriver.chrome.driver","C:\\Users\\zawawi.manja\\Downloads\\chromedriver.exe" );
         WebDriver driver=new ChromeDriver();
         driver.get(("http://demowebshop.tricentis.com/"));
         driver.quit();
-
-
 
     }
 }
